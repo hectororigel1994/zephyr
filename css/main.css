@@ -349,7 +349,7 @@ width: 100px;
     
     /*Main section*/
 
-
+/*Responsive section*/
     @media only screen and (max-width: 600px) {
 
         .image-logo {
@@ -375,7 +375,7 @@ width: 100px;
 
 
     }
-
+/*Responsive section ends*/
 
     #header-wrapper {
         text-align: center;
