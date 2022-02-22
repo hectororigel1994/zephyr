@@ -84,6 +84,12 @@
         color: #482ff7;
     }
     
+
+    .image-logo{
+
+width: 100px;
+
+    }
     /*End navigation*/
     
     body{
@@ -344,6 +350,12 @@
 
 
     @media only screen and (max-width: 600px) {
+
+        .image-logo{
+
+            width: 50px;
+            
+                }
 
         #header-wrapper {
             text-align: center;
