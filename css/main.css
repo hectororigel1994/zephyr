@@ -352,7 +352,7 @@ width: 100px;
 
     @media only screen and (max-width: 600px) {
 
-        .image-logo{
+        .image-logo {
 
             width: 50px;
             
@@ -366,7 +366,7 @@ width: 100px;
     background-attachment: fixed;
     background-size: contain !important;
     margin-bottom: 10px;
-    height: 100vh;
+    height: 50vh;
     box-sizing: border-box;
     position: relative;
     width: 100%;
