@@ -366,7 +366,7 @@ width: 100px;
     background-attachment: fixed;
     background-size: contain !important;
     margin-bottom: 10px;
-    height: 50vh;
+    height: 50vh !important;
     box-sizing: border-box;
     position: relative;
     width: 100%;
