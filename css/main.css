@@ -23,7 +23,8 @@
     
     .header{
       border-bottom: 1px solid #ffffff00;
-      background-image: linear-gradient(to right, #291368, #46127e, #2b1369);
+      /*background-image: linear-gradient(to right, #291368, #46127e, #2b1369);*/
+      background-image: linear-gradient(to right, #000000, #000000, #000000);
     }
     
     .navbar {
