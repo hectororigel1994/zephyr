@@ -480,3 +480,25 @@ width: 100px;
         background-position: center 50%;
     }
     /*end main section*/
+
+    /*album*/
+    .image-album {
+
+        width: auto;
+        height: auto;
+    
+    }
+    
+    
+    @media only screen and (max-width: 600px) {
+      
+        .image-album {
+    
+            width: 100%;
+            height: auto;
+        
+        }
+    
+      }
+    
+    /*End album*/
