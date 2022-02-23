@@ -237,10 +237,11 @@ h3 {
 
 
 @media only screen and (max-width: 600px) {
-    .image-album{
+    .image-album {
 
         width: 100%;
         height: auto;
-
+    
     }
-}
+  }
+
