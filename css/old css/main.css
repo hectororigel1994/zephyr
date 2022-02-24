@@ -1,0 +1,503 @@
+
+    /*Navigation*/
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header{
+      border-bottom: 1px solid #ffffff00;
+      /*background-image: linear-gradient(to right, #291368, #46127e, #2b1369);*/
+      background-image: linear-gradient(to right, #000000, #000000, #000000);
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #c49b66;
+    }
+    
+    .overlay{
+        display: none;
+        opacity:0.8;
+        background-color:#ccc;
+        position:fixed;
+        width:100%;
+        height:100%;
+        top:0px;
+        left:0px;
+        z-index:1000;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #c49b66;
+    }
+    
+    .nav-link:hover{
+        color: #fff;
+    }
+    
+    .nav-logo {
+        font-size: 2.1rem;
+        font-weight: 500;
+        color: #482ff7;
+    }
+    
+
+    .image-logo{
+
+width: 100px;
+
+    }
+    /*End navigation*/
+    
+    body{
+        font:16px/1.6 Arial,  sans-serif;
+        background-color: #000;
+    }
+    
+    /*Footer*/
+    @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+    
+    *{
+        padding:0;
+        margin:0;
+    }
+    
+    
+    header{
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    header h1{
+        font: normal 32px/1.5 'Open Sans', sans-serif;
+        color: #3F71AE;
+        padding-bottom: 16px;
+    }
+    
+    header h2{
+        color: #F05283;
+    }
+    
+    header span{
+        color: #3F71EA;
+    }
+    
+    
+    /* The footer is fixed to the bottom of the page */
+    
+    
+    @media (max-height:800px){
+        footer { position: static; }
+        header { padding-top:40px; }
+    
+    }
+    
+    
+    @media screen and (min-width:768px){
+    
+        .footer-distributed{
+            background-color: #2c292f;
+            box-sizing: border-box;
+            width: 100%;
+            text-align: left;
+            font: bold 16px sans-serif;
+            padding: 50px 50px 60px 50px;
+              
+        }
+    
+    }
+    
+    
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    /* Footer left */
+    
+    .footer-distributed .footer-left{
+        width: 30%;
+    }
+    
+    .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+    
+    /* The company logo */
+    
+    .footer-distributed .footer-left img{
+        width: 30%;
+    }
+    
+    .footer-distributed h3 span{
+        color:  #e0ac1c;
+    }
+    
+    /* Footer links */
+    
+    .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 20px 0 12px;
+    }
+    
+    .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+    
+    .footer-distributed .footer-company-name{
+        color:  #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    /* Footer Center */
+    
+    .footer-distributed .footer-center{
+        width: 35%;
+    }
+    
+    
+    .footer-distributed .footer-center i{
+        background-color:  #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+    
+    .footer-distributed .footer-center i.fa-envelope{
+        font-size: 17px;
+        line-height: 38px;
+    }
+    
+    .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+    
+    .footer-distributed .footer-center p span{
+        display:block;
+        font-weight: normal;
+        font-size:14px;
+        line-height:2;
+    }
+    
+    .footer-distributed .footer-center p a{
+        color:  #e0ac1c;
+        text-decoration: none;;
+    }
+    
+    
+    /* Footer Right */
+    
+    .footer-distributed .footer-right{
+        width: 30%;
+    }
+    
+    .footer-distributed .footer-company-about{
+        line-height: 20px;
+        color:  #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+    
+    .footer-distributed .footer-company-about span{
+        display: block;
+        color:  #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .footer-distributed .footer-icons{
+        margin-top: 25px;
+    }
+    
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+    
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+    
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    
+    /* Here is the code for Responsive Footer */
+    /* You can remove below code if you don't want Footer to be responsive */
+    
+    
+    @media (max-width: 880px) {
+    
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    
+        .footer-distributed .footer-center i{
+            margin-left: 0;
+        }
+    
+    }
+    /* Footer */
+    
+    /*Icons*/
+    .icons {
+        padding: 20px;
+        /*
+        font-size: 30px;
+        width: 50px;
+        */
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .icons:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-icon-fa {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-icon-ink {
+        background: #007bb5;
+        color: white;
+      }
+    /*End icons*/
+    
+    /*Last modification*/
+    
+    
+    #lastModified {
+        color:#8f9296;
+        text-align: center;
+        font-size: smaller;
+    }
+    /*End last modification*/
+    
+
+
+/*Contact form*/
+/*Contact sectiom*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+    background: #3a6186; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+  }
+  .contact-section .col-md-6{
+    width: 50%;
+  }
+  
+  .form-line{
+    border-right: 1px solid #B29999;
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+  }
+  textarea.form-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+
+
+    #contact {
+        font-family: 'Teko', sans-serif;
+        padding-top: 60px;
+        width: 100%;
+        height: 100%;
+        background: #3a6186;
+        background: -webkit-linear-gradient(to left, #3a6186 , #89253e);
+        background: linear-gradient(to left, #3a6186 , #89253e);
+        color: #fff;
+    }
+
+    .custom-col{
+  position: relative;
+  left: 190px;
+  top: -220px;
+}
+}
+/*End contact form*/
+
+
+
+    /*Main section*/
+
+/*Responsive section*/
+    @media only screen and (max-width: 600px) {
+
+        .image-logo {
+
+            width: 50px;
+            
+                }
+
+        #header-wrapper {
+            text-align: center;
+    padding: 0;
+    background: url(https://i.postimg.cc/bYZdQFpK/ZEPHYR-1400-X1400.jpg) no-repeat center;
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: contain !important;
+    margin-bottom: 10px;
+    height: 50vh !important;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+        }
+
+
+    }
+/*Responsive section ends*/
+
+    #header-wrapper {
+        text-align: center;
+        padding: 0;
+        background: url(https://i.postimg.cc/bYZdQFpK/ZEPHYR-1400-X1400.jpg) no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin-bottom: 10px;
+        height: 100vh;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        background-position: center 50%;
+    }
+    /*end main section*/
+
+    /*album*/
+    .image-album {
+
+        width: auto;
+        height: auto;
+    
+    }
+    
+    
+    @media only screen and (max-width: 600px) {
+      
+        .image-album {
+    
+            width: 100%;
+            height: auto;
+        
+        }
+    
+      }
+    
+    /*End album*/
