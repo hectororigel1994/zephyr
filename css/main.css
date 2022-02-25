@@ -45,7 +45,7 @@
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #c49b66;
+        background-color: #ffffff;
     }
     
     .overlay{
@@ -76,7 +76,7 @@
     }
     
     .nav-link:hover{
-        color: #fff;
+        color: rgb(190, 201, 199);
     }
     
     .nav-logo {
