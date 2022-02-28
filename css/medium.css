@@ -24,11 +24,11 @@
     }
 
     .hamburger {
-    display: block;
-    cursor: pointer;
-    position: fixed;
-    top: 40px;
-    right: 40px;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        right: 40px;
     }
 
 
