@@ -514,3 +514,7 @@ width: 100px;
       }
     
     /*End album*/
+    
+    body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+        font-family: 'artuculat' !important;
+    }
