@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'artuculat';
+					src: url('190328045611artuculat.woff') format('woff');
+					font-display: auto;
+				}
+
+				.artuculat{font-family: 'artuculat' !important;}
+
+						body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+					font-family: 'artuculat' !important;
+				}
+		
