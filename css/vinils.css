@@ -1,6 +1,6 @@
 /*Vinilos*/
 
-.container {
+#custom-container {
     width: 800px;
     margin: 30px auto;
   }
@@ -124,7 +124,7 @@
 
   @media only screen and  (max-width: 600px){
 
-    .container {
+    #custom-container {
       width: 100%;
       margin: 30px auto;
     }
