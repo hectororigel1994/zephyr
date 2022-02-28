@@ -1,10 +1,10 @@
 /*Vinilos*/
 
-
 #custom-container {
   width: 800px;
   margin: 30px auto;
 }
+
 
 .mejs {
   &__container {
@@ -29,9 +29,8 @@
   background: #f0f0f0;
   padding: 30px;
   border-radius: 3px;
-}
   
-.podcast__episode_title {
+  &__episode_title {
     font-size: 28px;
     font-weight: bold;
     line-height: 1.5;
@@ -41,7 +40,7 @@
     color: #333;
   }
   
-  .podcast__title {
+  &__title {
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 11px;
@@ -54,7 +53,7 @@
     }
   }
   
-  .podcast__meta {
+  &__meta {
     background: #ddd;
     margin: 40px -30px -30px -30px;
     padding: 0 30px 30px 30px;
@@ -123,7 +122,6 @@
   display: none !important;
 }
 
-  
 
   @media only screen and  (max-width: 600px){
 
