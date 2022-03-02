@@ -79,7 +79,7 @@
     }
     
     .nav-link{
-        font-family: Poppins;
+        font-family: Poppins !important;
     font-weight: 400;
     font-style: normal;
     font-size: 17;
